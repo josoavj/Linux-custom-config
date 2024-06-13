@@ -1,0 +1,20 @@
+## Utilisation de tar 
+- tar: Tape Archive
+- Fonctionnalités:
+  --> Archiver des fichiers/dossiers 
+  --> Extraction d'archive
+  --> Gérer des achives
+  --> Compression et décompression
+- Syntaxe: tar [options] [commande] file/folder
+- Créer une archive: tar -cvf archive_name.tar my_folder/
+- Extraire une archive: tar -xvf nom_archive.tar
+- Afficher le contenu d'une archive; tar -tvf nom_archive.tar
+- Options courantes:
+  -> c : Création d'une archive
+  -> v : Affichage des informations pendant l'opération
+  -> f : Spécification du nom du fichier archive
+  -> x : Extraction d'une archive
+  -> t : Affichage du contenu d'une archive
+  -> z : Compression avec gzip (nécessite gzip installé)
+  -> j : Compression avec bzip2 (nécessite bzip2 installé)
+
