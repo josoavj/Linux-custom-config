@@ -10,6 +10,9 @@
 - Créer une archive: tar -cvf archive_name.tar my_folder/
 - Extraire une archive: tar -xvf nom_archive.tar
 - Afficher le contenu d'une archive; tar -tvf nom_archive.tar
+- Extraction dans un dossier spécifique: tar -x [options] -C <dossier_cible> archive.tar
+  --> -C indique le dossier cible où extraire les fichiers
+- Ex: tar -xzf nom_archive.tar
 
 - Options courantes:
   -> c : Création d'une archive
