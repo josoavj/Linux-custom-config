@@ -59,4 +59,18 @@ Remarque: Git est préinstallé sur Garuda Linux.
   -> On a la possibilité d'utiliser différent mode:
     -> git reset HEAD^^ (Reviens en arrière en fonction du nombre de chapeau, soit deuc fois ou trois fois en arrière)
     -> git reset --hard:: hard reset pour revenir au dernier commit
-    ->
+
+
+
+> Type de commit pour git:
+  - git commit -m "type: Commentaire"
+  - Il existe 9 types de commit disponibles:
+    -> build: changements qui affectent le système de build ou des dépendances externes
+    -> ci: changements concernant les fichiers et scripts d’intégration ou de configuration
+    -> feat: ajout d’une nouvelle fonctionnalité
+    -> fix: correction d’un bug
+    -> perf: amélioration des performances
+    -> refactor: modification qui n’apporte ni nouvelle fonctionalité ni d’amélioration de performances
+    -> style: changement qui n’apporte aucune alteration fonctionnelle ou sémantique
+    -> docs: rédaction ou mise à jour de documentation
+    -> test: ajout ou modification de tests
