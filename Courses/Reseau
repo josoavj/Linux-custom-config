@@ -1,0 +1,3 @@
+-> Useful tips: 
+   -> Obtenir l'adresse IP d'un site: dig nom_site
+   -> Ensuite executer nmap +IP+
