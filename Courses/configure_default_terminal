@@ -7,3 +7,9 @@
 - Si absent, ajouter le chemin bin de votre terminal (sudo nano)
 - Ensuite executer: chsh -s /path/to/bin/terminal username
 
+## NB
+- Voici un terminal que je recommande beaucoup pour son interface et sa maniabilité: Warp
+- Site officiel du Warp: https://www.warp.dev/
+- Vouz pouvez télecharger le fichier d'installation en fonction de votre OS
+- Il intègre une IA qui sert d'office de rechercher pour les services du OS
+
